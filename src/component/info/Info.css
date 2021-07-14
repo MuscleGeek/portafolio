@@ -1,0 +1,27 @@
+.info-container {
+    background-color: whitesmoke;
+    color: black;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 100vh; /*usado para poder tener la visibilidad del componente Footer al hacer scroll ya footer usa z-index: -2*/
+}
+
+.info-body {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+/*Responsive set-up area */
+@media only screen and (max-width: 960px) {
+    .info-container{
+        height: 200px;
+        width: 100%;
+    }
+
+    .info-body > h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,22 @@
+.navbar {
+    background-color: transparent;
+    font-size: 20px;
+    height: 80px;
+    padding-left: 50px;
+    position: fixed; /*fija*/
+    top:0; /*arriba de todo*/
+    width: 100%;
+    z-index: 1; /*esté por encima de lo que se ha hehco*/
+    color: yellowgreen;
+}
+
+.navbar-logo{
+    height: 80px;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+.scrolling {
+    background-color: black;
+    transition: all 0.5 ease;
+}

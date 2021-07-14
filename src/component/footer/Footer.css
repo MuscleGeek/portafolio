@@ -1,0 +1,93 @@
+.footer-container {
+    background-color: black;
+    bottom: 0;
+    color: whitesmoke;
+    height: 100vh;
+    left: 0;
+    padding-top: 180px;
+    position: fixed; /*same position*/
+    width: 100%;
+    z-index: -2; /*se mantenga por debajo de los otros contenedores*/ 
+
+}
+
+.footer-info {
+    font-size: 37px;
+    padding: 30px 0 30px 0;;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer-info > h1 {
+    padding-bottom: 17px;
+}
+
+.footer-contact {
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 100px 0 100px 0;
+    width: 70%;
+}
+
+.footer-socialize {
+    align-items: center;
+    bottom: 0;
+    display: grid;      /*presentacion en vista columnas*/
+    grid-template-columns: 2fr 1fr ;
+    margin: 0 auto;
+    left: 0;
+    position: absolute; /*queda totalmente abajo*/
+    right: 40px;
+    width: 70%;
+    
+}
+
+.footer-socialize-net {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.linkedin, .github, .facebook {
+    color: whitesmoke;
+    font-size: 33px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-bottom: 5px solid transparent;
+}
+
+.linkedin:hover, github:hover, facebook:hover {
+    color: whitesmoke;
+    transition: all 0.2s ease-out;
+}
+
+.created-by {
+    font-size: 30px;
+    padding-left: 52px;
+    color: greenyellow;
+}
+
+/*Responsive set-up area*/
+@media only screen and (max-width: 960px) {
+    .footer-info {
+        font-size: 21px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .footer-contact {
+        font-size: 18px;
+        padding: 100px 0 30px 0;
+        text-align: center;
+    }
+
+    .footer-socialize {
+        grid-template-columns: 1 fr;
+        text-align: center;
+    }
+
+    .created-by {
+        padding: 0 0 40px 0;
+    }
+
+}

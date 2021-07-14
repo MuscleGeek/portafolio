@@ -1,0 +1,64 @@
+.about-container {
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    height: 70vh;
+    padding: 100px 0 100px 0;
+}
+
+.about-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px 0 100px;
+    width: 55%;
+
+}
+
+.about-description > h3 {
+    font-size: 30px;
+    margin-bottom: 28px;
+}
+
+.about-description > p {
+    line-height: 1.6;
+}
+
+.about-image {
+    align-self: center;
+    display: flex;
+    overflow: hidden;
+    width: 45%;
+    height: 60vh
+}
+
+/*Responsive set-up area*/
+@media only screen and (max-width: 960px) {
+    .about-container {
+        flex-direction: column;  /*reverse direction from original config via flex*/
+        padding: 0;
+        height: auto;
+    }
+
+    .about-description {
+        margin: 0 auto;
+        padding: 40px 0 40px 0;
+        width: 90%;
+    }
+
+    .about-description > h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about-image {
+        margin-bottom: 50px;
+        width: 50px;
+    }
+
+    .about-img > img {
+        height: 40vh;
+        width: 100%;
+        
+    }
+}
