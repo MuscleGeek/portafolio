@@ -1,5 +1,8 @@
 .info-container {
-    background-color: whitesmoke;
+    background: #F9F9F9;
+    background: -webkit-linear-gradient(top left, #F9F9F9, #C1CDD9);
+    background: -moz-linear-gradient(top left, #F9F9F9, #C1CDD9);
+    background: linear-gradient(to bottom right, #F9F9F9, #C1CDD9);
     color: black;
     height: 300px;
     width: 100%;

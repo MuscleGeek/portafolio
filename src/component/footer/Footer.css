@@ -48,7 +48,7 @@
     width: 100%;
 }
 
-.linkedin, .github, .facebook {
+.linkedin, .github, .facebook, .envelope {
     color: whitesmoke;
     font-size: 33px;
     margin: 0 auto;
@@ -56,7 +56,7 @@
     border-bottom: 5px solid transparent;
 }
 
-.linkedin:hover, github:hover, facebook:hover {
+.linkedin:hover, github:hover, facebook:hover, .envelope:hover {
     color: whitesmoke;
     transition: all 0.2s ease-out;
 }

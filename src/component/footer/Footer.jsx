@@ -6,11 +6,11 @@ const Footer = () => {
         <div className="footer-container">
             <div className="footer-info">
                 <h1>Jonathan Villalobos Mora</h1>
-                <p>Costa Rica</p>
+                <p>Costarrican Dude</p>
             </div>
             <div className="footer-contact">
                 <h3>Contact Me</h3>
-                <p>Let's Code!</p>
+                <p>Let's get in touch! <a href="mailto:0xbash@protonmail.com"><i className="fa fa-envelope envelope"></i></a></p>
             </div>
             <div className="footer-socialize">
                 <div className="created-by">

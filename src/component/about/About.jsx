@@ -6,12 +6,12 @@ const About = () => {
     return (
         <div className="about-container">
             <div className="about-description">
-                <h3>Tell me something...</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                optio, eaque rerum! Provident similique accusantium nemo autem.
+                <h3>It's me!...</h3>
+                <p>I am a passionate dude for computer science who loves coding,<br/>
+                 solving problems and loves being Pentesting Enthusiast!<br/>
+                 Step by step learning how to became a better person and professional.
                 </p>
+                <hr/>
             </div>
             <div className="about-image">
                 <img src={Pic} alt="about"/>
